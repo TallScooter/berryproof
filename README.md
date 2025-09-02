@@ -13,3 +13,5 @@ Because nobody wants to die from walking through a sweet berry bush.
 - **Configure options**: in-game via the config screen, or at 'config/berryproof.json'
 
 Enjoy a safer berry pricking experience for you and your villagers!
+
+Available on [Curseforge](https://www.curseforge.com/minecraft/mc-mods/berryproof)
