@@ -14,7 +14,7 @@ Berry Proof: Because nobody wants to die from walking through a sweet berry bush
 ## Getting Started
 
 1. Download Berry Proof from Curseforge
-2. Place BerryProof in your mods folder.
+2. Place BerryProof in your mods folder (Curseforge does this automatically).
 3. Configure options in-game via the config screen, or at 'config/berryproof.json'.
 4. Customize protection sources and items using the optional datapack for full mod compatibility.
 
