@@ -1,9 +1,8 @@
 plugins {
     id 'java-library'
-    id 'eclipse'
-    id 'idea'
     id 'maven-publish'
-    id 'net.neoforged.gradle.userdev' version '7.0.190'
+    id 'net.neoforged.moddev' version '2.0.107'
+    id 'idea'
 }
 
 group = mod_group_id
@@ -30,51 +29,55 @@ repositories {
     maven {
         name = "Modrinth"
         url = "https://api.modrinth.com/maven"
-  }
+    }
 }
 
 dependencies {
     implementation "net.neoforged:neoforge:${neoforge_version}"
+    implementation "maven.modrinth:midnightlib:${project.midnightlib_version}"
 
     // Pull in mixin-extras but drop its old asm-analysis:9.5
     implementation("io.github.llamalad7:mixinextras-neoforge:0.5.0") {
         exclude group: "org.ow2.asm", module: "asm-analysis"
     }
-    implementation ("maven.modrinth:midnightlib:${project.midnightlib_version}")
 }
 
 
-runs {
-    // common settings for all run configurations
-    configureEach { run ->
-        run.systemProperty("forge.logging.markers",           "REGISTRIES")
-        run.systemProperty("forge.logging.console.level",     "debug")
-        run.systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
-    }
+neoForge {
+    version = project.neoforge_version
+    runs {
+        // common settings for all run configurations
+        configureEach { run ->
+            run.systemProperty("forge.logging.markers",           "REGISTRIES")
+            run.systemProperty("forge.logging.console.level",     "debug")
+            run.systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
+        }
 
-    client {
-        // client-only overrides (if any)
-        systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
-    }
+        client {
+            // client-only overrides (if any)
+            systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
+        }
 
-    server {
-        // run server headlessly
-        systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
-        getArguments().add("--nogui")
-    }
+        server {
+            // run server headlessly
+            systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
+            programArgument "--nogui"
+        }
 
-    gameTestServer {
-        systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
-    }
+        gameTestServer {
+            systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
+        }
 
-    data {
-        // data generation invocation
-        getArguments().addAll([
-            "--mod",      project.mod_id,
-            "--all",
-            "--output",   file("src/generated/resources").absolutePath,
-            "--existing", file("src/main/resources").absolutePath
-        ])
+        data {
+            // data generation invocation
+            programArgument "--mod"
+            programArgument project.mod_id
+            programArgument "--all"
+            programArgument "--output"
+            programArgument file("src/generated/resources").absolutePath
+            programArgument "--existing"
+            programArgument file("src/main/resources").absolutePath
+        }
     }
 }
 
