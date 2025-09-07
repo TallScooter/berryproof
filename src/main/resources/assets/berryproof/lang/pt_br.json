@@ -1,0 +1,25 @@
+{
+  "berryproof.midnightconfig.title": "Configura\u00E7\u00E3o do Berry Proof",
+  "berryproof.midnightconfig.enableSound": "Ativar som quando o dano for bloqueado",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "Alterna o som quando o dano \u00E9 bloqueado.",
+  "berryproof.midnightconfig.enableSound.tooltip": "Se ativado, um som tocar\u00E1 quando o dano de baga/cacto for bloqueado.",
+  "berryproof.midnightconfig.soundVolume": "Volume do som (0,0 a 1,0)",
+  "berryproof.midnightconfig.soundVolume.label.tooltip": "Ajuste o volume do som de prote\u00E7\u00E3o.",
+  "berryproof.midnightconfig.soundVolume.tooltip": "Define o volume do som reproduzido quando o dano \u00E9 anulado.",
+  "berryproof.midnightconfig.logTagMatches": "Ativar registro detalhado para correspond\u00EAncia de tags",
+  "berryproof.midnightconfig.logTagMatches.label.tooltip": "Mostra informa\u00E7\u00F5es de depura\u00E7\u00E3o no log para correspond\u00EAncias de tags.",
+  "berryproof.midnightconfig.logTagMatches.tooltip": "Se ativado, informa\u00E7\u00F5es detalhadas ser\u00E3o registradas para depura\u00E7\u00E3o.",
+  "berryproof.midnightconfig.enableProtectedEntities": "Ativar prote\u00E7\u00E3o para alde\u00F5es, golems e comerciantes n\u00F4mades",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "Protege entidades marcadas contra arbustos de bagas, cactos e outras fontes de dano.",
+  "berryproof.midnightconfig.enableProtectedEntities.tooltip": "Se ativado, alde\u00F5es, golems e comerciantes n\u00F4mades s\u00E3o protegidos mesmo sem perneiras.",
+  "berryproof.midnightconfig.debugHeading": "\u00A7c\u00A7l\u00A7nDepura\u00E7\u00E3o",
+  "berryproof.midnightconfig.soundHeading": "\u00A7c\u00A7l\u00A7nSom",
+  "berryproof.midnightconfig.entityProtectionHeading": "\u00A7c\u00A7l\u00A7nProte\u00E7\u00E3o de Entidades",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "Mostre \u00E0s bagas quem manda!",
+  "advancement.berryproof.berryproofed.title": "\u00C0 prova de bagas!",
+  "advancement.berryproof.berryproofed.desc": "Passe por um arbusto de bagas doces sem sofrer dano.",
+  "advancement.berryproof.cactusproofed.title": "Uma situa\u00E7\u00E3o espinhosa",
+  "advancement.berryproof.cactusproofed.desc": "Ande em um cacto sem sofrer dano."
+}

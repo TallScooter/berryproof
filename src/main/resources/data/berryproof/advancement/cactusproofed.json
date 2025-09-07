@@ -1,0 +1,23 @@
+{
+  "parent": "berryproof:root",
+  "display": {
+    "icon": {
+  "id": "minecraft:cactus"
+    },
+    "title": {
+      "translate": "advancement.berryproof.cactusproofed.title"
+    },
+    "description": {
+      "translate": "advancement.berryproof.cactusproofed.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "blocked_cactus_damage": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

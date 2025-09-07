@@ -1,8 +1,8 @@
 {
   "berryproof.midnightconfig.title": "Berry Proof Configuration",
-  "berryproof.midnightconfig.enableSound": "Enable sound when damage is negated",
-  "berryproof.midnightconfig.enableSound.label.tooltip": "Toggle sound feedback when damage is blocked.",
-  "berryproof.midnightconfig.enableSound.tooltip": "If enabled, a sound will play when berry/cactus damage is negated.",
+  "berryproof.midnightconfig.enableSound": "Enable sound when damage is blocked",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "Toggle sound when damage is blocked.",
+  "berryproof.midnightconfig.enableSound.tooltip": "If enabled, a sound will play when berry/cactus damage is blocked.",
   "berryproof.midnightconfig.soundVolume": "Sound volume (0.0 to 1.0)",
   "berryproof.midnightconfig.soundVolume.label.tooltip": "Adjust the volume of the protection sound.",
   "berryproof.midnightconfig.soundVolume.tooltip": "Set the volume for the sound played when damage is negated.",
@@ -10,7 +10,16 @@
   "berryproof.midnightconfig.logTagMatches.label.tooltip": "Show debug info in the log for tag matches.",
   "berryproof.midnightconfig.logTagMatches.tooltip": "If enabled, detailed tag match info will be logged for debugging.",
   "berryproof.midnightconfig.enableProtectedEntities": "Enable protection for villagers, golems, and wandering traders",
-  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "Protect tagged entities from berry/cactus damage.",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "Protect tagged entities from berry bushes, cactus and other (if any) damage sources.",
   "berryproof.midnightconfig.enableProtectedEntities.tooltip": "If enabled, villagers, golems, and wandering traders are protected even without leggings.",
-  "berryproof.midnightconfig.category.general": "General"
+  "berryproof.midnightconfig.debugHeading": "§c§l§nDebugging",
+  "berryproof.midnightconfig.soundHeading": "§c§l§nSound",
+  "berryproof.midnightconfig.entityProtectionHeading": "§c§l§nEntity Protection",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "Show those berries who's boss!",
+  "advancement.berryproof.berryproofed.title": "Berry Proofed!",
+  "advancement.berryproof.berryproofed.desc": "Walk through a sweet berry bush without taking damage.",
+  "advancement.berryproof.cactusproofed.title": "A Prickly Situation",
+  "advancement.berryproof.cactusproofed.desc": "Walk into a cactus without taking damage."
 }

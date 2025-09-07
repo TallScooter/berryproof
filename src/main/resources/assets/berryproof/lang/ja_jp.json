@@ -1,0 +1,25 @@
+{
+  "berryproof.midnightconfig.title": "Berry Proof 設定",
+  "berryproof.midnightconfig.enableSound": "ダメージを無効化したときに効果音を再生",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "ダメージ無効化時の効果音を切り替えます。",
+  "berryproof.midnightconfig.enableSound.tooltip": "有効にすると、ベリー／サボテンのダメージを無効化した際に効果音が鳴ります。",
+  "berryproof.midnightconfig.soundVolume": "効果音の音量 (0.0 ～ 1.0)",
+  "berryproof.midnightconfig.soundVolume.label.tooltip": "保護音の音量を調整します。",
+  "berryproof.midnightconfig.soundVolume.tooltip": "ダメージが打ち消されたときに再生される音量を設定します。",
+  "berryproof.midnightconfig.logTagMatches": "タグ照合の詳細ログを有効化",
+  "berryproof.midnightconfig.logTagMatches.label.tooltip": "タグ照合のデバッグ情報をログに表示します。",
+  "berryproof.midnightconfig.logTagMatches.tooltip": "有効にすると、デバッグ用の詳細な照合情報を記録します。",
+  "berryproof.midnightconfig.enableProtectedEntities": "村人、ゴーレム、行商人の保護を有効化",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "タグ付けされたエンティティをベリーの茂み、サボテン、その他のダメージ源から保護します。",
+  "berryproof.midnightconfig.enableProtectedEntities.tooltip": "有効にすると、レギンスがなくても村人・ゴーレム・行商人が保護されます。",
+  "berryproof.midnightconfig.debugHeading": "\u00A7c\u00A7l\u00A7nデバッグ",
+  "berryproof.midnightconfig.soundHeading": "\u00A7c\u00A7l\u00A7nサウンド",
+  "berryproof.midnightconfig.entityProtectionHeading": "\u00A7c\u00A7l\u00A7nエンティティ保護",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "そのベリーに誰がボスか教えてやれ！",
+  "advancement.berryproof.berryproofed.title": "ベリー耐性！",
+  "advancement.berryproof.berryproofed.desc": "スイートベリーの茂みをダメージを受けずに通り抜ける。",
+  "advancement.berryproof.cactusproofed.title": "トゲだらけの状況",
+  "advancement.berryproof.cactusproofed.desc": "サボテンに当たってもダメージを受けない。"
+}

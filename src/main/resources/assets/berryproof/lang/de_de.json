@@ -1,0 +1,25 @@
+{
+  "berryproof.midnightconfig.title": "Berry Proof Konfiguration",
+  "berryproof.midnightconfig.enableSound": "Sound aktivieren, wenn Schaden blockiert wird",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "Schaltet den Sound um, wenn Schaden blockiert wird.",
+  "berryproof.midnightconfig.enableSound.tooltip": "Wenn aktiviert, wird ein Sound abgespielt, wenn Beeren-/Kaktusschaden blockiert wird.",
+  "berryproof.midnightconfig.soundVolume": "Lautst\u00E4rke (0,0 bis 1,0)",
+  "berryproof.midnightconfig.soundVolume.label.tooltip": "Stelle die Lautst\u00E4rke des Schutzsounds ein.",
+  "berryproof.midnightconfig.soundVolume.tooltip": "Lege die Lautst\u00E4rke des Sounds fest, wenn Schaden negiert wird.",
+  "berryproof.midnightconfig.logTagMatches": "Ausf\u00FChrliches Logging f\u00FCr Tag-Abgleich aktivieren",
+  "berryproof.midnightconfig.logTagMatches.label.tooltip": "Zeigt Debug-Infos im Log f\u00FCr Tag-Abgleiche.",
+  "berryproof.midnightconfig.logTagMatches.tooltip": "Wenn aktiviert, werden detaillierte Tag-Abgleiche f\u00FCrs Debugging geloggt.",
+  "berryproof.midnightconfig.enableProtectedEntities": "Schutz f\u00FCr Dorfbewohner, Golems und fahrende H\u00E4ndler aktivieren",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "Sch\u00FCtzt markierte Entit\u00E4ten vor Beerstr\u00E4uchern, Kakteen und weiteren Schadensquellen (falls vorhanden).",
+  "berryproof.midnightconfig.enableProtectedEntities.tooltip": "Wenn aktiviert, sind Dorfbewohner, Golems und fahrende H\u00E4ndler auch ohne Beinschienen gesch\u00FCtzt.",
+  "berryproof.midnightconfig.debugHeading": "\u00A7c\u00A7l\u00A7nDebugging",
+  "berryproof.midnightconfig.soundHeading": "\u00A7c\u00A7l\u00A7nSound",
+  "berryproof.midnightconfig.entityProtectionHeading": "\u00A7c\u00A7l\u00A7nEntit\u00E4tenschutz",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "Zeig den Beeren, wer hier der Boss ist!",
+  "advancement.berryproof.berryproofed.title": "Beerenfest!",
+  "advancement.berryproof.berryproofed.desc": "Gehe durch einen S\u00FC\u00DFbeerstrauch, ohne Schaden zu nehmen.",
+  "advancement.berryproof.cactusproofed.title": "Eine stachelige Lage",
+  "advancement.berryproof.cactusproofed.desc": "Laufe in einen Kaktus, ohne Schaden zu nehmen."
+}

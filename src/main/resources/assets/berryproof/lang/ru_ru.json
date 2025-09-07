@@ -1,0 +1,25 @@
+{
+  "berryproof.midnightconfig.title": "Настройки Berry Proof",
+  "berryproof.midnightconfig.enableSound": "Включить звук при блокировке урона",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "Переключает звук при блокировке урона.",
+  "berryproof.midnightconfig.enableSound.tooltip": "Если включено, будет воспроизводиться звук при блокировке урона от ягод/кактуса.",
+  "berryproof.midnightconfig.soundVolume": "Громкость звука (0.0 до 1.0)",
+  "berryproof.midnightconfig.soundVolume.label.tooltip": "Настроить громкость защитного звука.",
+  "berryproof.midnightconfig.soundVolume.tooltip": "Установить громкость звука при отрицании урона.",
+  "berryproof.midnightconfig.logTagMatches": "Включить подробное логирование сопоставления тегов",
+  "berryproof.midnightconfig.logTagMatches.label.tooltip": "Показывать отладочную информацию в журнале для совпадений тегов.",
+  "berryproof.midnightconfig.logTagMatches.tooltip": "Если включено, будут записываться подробные совпадения для отладки.",
+  "berryproof.midnightconfig.enableProtectedEntities": "Включить защиту для жителей, големов и бродячих торговцев",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "Защищает помеченные сущности от ягодных кустов, кактусов и других источников урона (если есть).",
+  "berryproof.midnightconfig.enableProtectedEntities.tooltip": "Если включено, жители, големы и бродячие торговцы защищены даже без поножей.",
+  "berryproof.midnightconfig.debugHeading": "\u00A7c\u00A7l\u00A7nОтладка",
+  "berryproof.midnightconfig.soundHeading": "\u00A7c\u00A7l\u00A7nЗвук",
+  "berryproof.midnightconfig.entityProtectionHeading": "\u00A7c\u00A7l\u00A7nЗащита сущностей",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "Покажи этим ягодам, кто здесь главный!",
+  "advancement.berryproof.berryproofed.title": "Защищён от ягод!",
+  "advancement.berryproof.berryproofed.desc": "Пройдите через куст сладких ягод, не получив урона.",
+  "advancement.berryproof.cactusproofed.title": "Колючая ситуация",
+  "advancement.berryproof.cactusproofed.desc": "Войдите в кактус, не получив урона."
+}

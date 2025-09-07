@@ -1,0 +1,25 @@
+{
+  "berryproof.midnightconfig.title": "Configuration Berry Proof",
+  "berryproof.midnightconfig.enableSound": "Activer le son lorsque les d\u00E9g\u00E2ts sont bloqu\u00E9s",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "Active/d\u00E9sactive le son lorsque les d\u00E9g\u00E2ts sont bloqu\u00E9s.",
+  "berryproof.midnightconfig.enableSound.tooltip": "Si activ\u00E9, un son est jou\u00E9 lorsque les d\u00E9g\u00E2ts de baies/cactus sont bloqu\u00E9s.",
+  "berryproof.midnightconfig.soundVolume": "Volume du son (0,0 \u00E0 1,0)",
+  "berryproof.midnightconfig.soundVolume.label.tooltip": "Ajuste le volume du son de protection.",
+  "berryproof.midnightconfig.soundVolume.tooltip": "D\u00E9finit le volume du son jou\u00E9 quand les d\u00E9g\u00E2ts sont annul\u00E9s.",
+  "berryproof.midnightconfig.logTagMatches": "Activer la journalisation d\u00E9taill\u00E9e pour la correspondance des tags",
+  "berryproof.midnightconfig.logTagMatches.label.tooltip": "Affiche des infos de d\u00E9bogage dans les logs pour les correspondances de tags.",
+  "berryproof.midnightconfig.logTagMatches.tooltip": "Si activ\u00E9, des informations d\u00E9taill\u00E9es seront consign\u00E9es pour le d\u00E9bogage.",
+  "berryproof.midnightconfig.enableProtectedEntities": "Activer la protection pour les villageois, golems et marchands ambulants",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "Prot\u00E8ge les entit\u00E9s marqu\u00E9es contre les buissons \u00E0 baies, les cactus et autres sources de d\u00E9g\u00E2ts.",
+  "berryproof.midnightconfig.enableProtectedEntities.tooltip": "Si activ\u00E9, les villageois, golems et marchands ambulants sont prot\u00E9g\u00E9s m\u00EAme sans jambi\u00E8res.",
+  "berryproof.midnightconfig.debugHeading": "\u00A7c\u00A7l\u00A7nD\u00E9bogage",
+  "berryproof.midnightconfig.soundHeading": "\u00A7c\u00A7l\u00A7nSon",
+  "berryproof.midnightconfig.entityProtectionHeading": "\u00A7c\u00A7l\u00A7nProtection des entit\u00E9s",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "Montrez \u00E0 ces baies qui est le patron !",
+  "advancement.berryproof.berryproofed.title": "\u00C0 l'\u00E9preuve des baies !",
+  "advancement.berryproof.berryproofed.desc": "Traversez un buisson de baies sans subir de d\u00E9g\u00E2ts.",
+  "advancement.berryproof.cactusproofed.title": "Une situation piquante",
+  "advancement.berryproof.cactusproofed.desc": "Entrez dans un cactus sans subir de d\u00E9g\u00E2ts."
+}

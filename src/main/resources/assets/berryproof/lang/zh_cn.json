@@ -1,0 +1,25 @@
+{
+  "berryproof.midnightconfig.title": "Berry Proof \u914D\u7F6E",
+  "berryproof.midnightconfig.enableSound": "\u5F53\u4F24\u5BB3\u88AB\u963B\u6321\u65F6\u542F\u7528\u97F3\u6548",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "\u5F53\u4F24\u5BB3\u88AB\u963B\u6321\u65F6\u5207\u6362\u97F3\u6548\u3002",
+  "berryproof.midnightconfig.enableSound.tooltip": "\u542F\u7528\u540E\uFF0C\u963B\u6321\u6D53\u8393/\u4ED9\u4EBA\u638C\u4F24\u5BB3\u65F6\u4F1A\u64AD\u653E\u97F3\u6548\u3002",
+  "berryproof.midnightconfig.soundVolume": "\u97F3\u91CF\uFF080.0 \u5230 1.0\uFF09",
+  "berryproof.midnightconfig.soundVolume.label.tooltip": "\u8C03\u6574\u4FDD\u62A4\u97F3\u6548\u7684\u97F3\u91CF\u3002",
+  "berryproof.midnightconfig.soundVolume.tooltip": "\u8BBE\u7F6E\u4F24\u5BB3\u88AB\u62B5\u6D88\u65F6\u64AD\u653E\u7684\u97F3\u91CF\u3002",
+  "berryproof.midnightconfig.logTagMatches": "\u542F\u7528\u6807\u7B7E\u5339\u914D\u7684\u8BE6\u7EC6\u65E5\u5FD7",
+  "berryproof.midnightconfig.logTagMatches.label.tooltip": "\u5728\u65E5\u5FD7\u4E2D\u663E\u793A\u6807\u7B7E\u5339\u914D\u7684\u8C03\u8BD5\u4FE1\u606F\u3002",
+  "berryproof.midnightconfig.logTagMatches.tooltip": "\u542F\u7528\u540E\uFF0C\u5C06\u8BB0\u5F55\u8BE6\u7EC6\u5339\u914D\u4FE1\u606F\u4EE5\u4FBF\u8C03\u8BD5\u3002",
+  "berryproof.midnightconfig.enableProtectedEntities": "\u4E3A\u6751\u6C11\u3001\u50E7\u4F8D\u548C\u6F2B\u6E38\u5546\u4EBA\u542F\u7528\u4FDD\u62A4",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "\u4FDD\u62A4\u5E26\u6709\u6807\u7B7E\u7684\u5B9E\u4F53\u514D\u53D7\u6D53\u8393\u4E1B\u3001\u4ED9\u4EBA\u638C\u7B49\u5176\u4ED6\u4F24\u5BB3\u6765\u6E90\u3002",
+  "berryproof.midnightconfig.enableProtectedEntities.tooltip": "\u542F\u7528\u540E\uFF0C\u5373\u4F7F\u6CA1\u6709\u62AB\u817F\u7532\uFF0C\u6751\u6C11\u3001\u50E7\u4F8D\u548C\u6F2B\u6E38\u5546\u4EBA\u4E5F\u4F1A\u53D7\u5230\u4FDD\u62A4\u3002",
+  "berryproof.midnightconfig.debugHeading": "\u00A7c\u00A7l\u00A7n\u8C03\u8BD5",
+  "berryproof.midnightconfig.soundHeading": "\u00A7c\u00A7l\u00A7n\u58F0\u97F3",
+  "berryproof.midnightconfig.entityProtectionHeading": "\u00A7c\u00A7l\u00A7n\u5B9E\u4F53\u4FDD\u62A4",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "\u8BA9\u90A3\u4E9B\u6D53\u8393\u77E5\u9053\u8C01\u662F\u8001\u5927\uFF01",
+  "advancement.berryproof.berryproofed.title": "\u9632\u8393\u8D24\u58EB\uFF01",
+  "advancement.berryproof.berryproofed.desc": "\u7A7F\u8FC7\u751C\u6D53\u8393\u704C\u6728\u800C\u4E0D\u53D7\u4F24\u5BB3\u3002",
+  "advancement.berryproof.cactusproofed.title": "\u523A\u624B\u7684\u5904\u5883",
+  "advancement.berryproof.cactusproofed.desc": "\u649E\u5230\u4ED9\u4EBA\u638C\u4E5F\u4E0D\u53D7\u4F24\u5BB3\u3002"
+}

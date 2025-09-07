@@ -8,7 +8,6 @@ plugins {
 
 group = mod_group_id
 
-// Use a consistent archivesBaseName
 base {
     archivesName = "berryproof-${minecraft_version}-NeoForge"
 }
@@ -36,7 +35,6 @@ repositories {
 dependencies {
     implementation "net.neoforged:neoforge:${neoforge_version}"
 
-    // Pull in mixin-extras but drop its old asm-analysis:9.5
     implementation("io.github.llamalad7:mixinextras-neoforge:0.5.0") {
         exclude group: "org.ow2.asm", module: "asm-analysis"
     }
@@ -45,7 +43,6 @@ dependencies {
 
 
 runs {
-    // common settings for all run configurations
     configureEach { run ->
         run.systemProperty("forge.logging.markers",           "REGISTRIES")
         run.systemProperty("forge.logging.console.level",     "debug")
@@ -53,12 +50,10 @@ runs {
     }
 
     client {
-        // client-only overrides (if any)
         systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
     }
 
     server {
-        // run server headlessly
         systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
         getArguments().add("--nogui")
     }
@@ -67,19 +62,6 @@ runs {
         systemProperty("forge.enabledGameTestNamespaces", project.mod_id)
     }
 
-    data {
-        // data generation invocation
-        getArguments().addAll([
-            "--mod",      project.mod_id,
-            "--all",
-            "--output",   file("src/generated/resources").absolutePath,
-            "--existing", file("src/main/resources").absolutePath
-        ])
-    }
-}
-
-sourceSets.main.resources {
-    srcDir 'src/generated/resources'
 }
 
 tasks.withType(ProcessResources).configureEach {
@@ -116,8 +98,6 @@ publishing {
     }
 }
 
-// Avoid the ASM module/classpath clash by forcing everything
-// on the visible classpaths to use ASM 9.8
 configurations.matching { cfg ->
     cfg.name in [
         'compileClasspath',
@@ -131,3 +111,14 @@ configurations.matching { cfg ->
         force "org.ow2.asm:asm-tree:9.8"
     }
 }
+
+// Zip up the datapack for publishing
+tasks.register('zipDatapack', Zip) {
+    def dpRoot = file("${project.projectDir}/src/main/datapack/berryproof")
+    from(dpRoot)
+    include '**/*'
+    archiveBaseName.set("${project.mod_id}-datapack")
+    archiveVersion.set(project.mod_version)
+    destinationDirectory.set(layout.buildDirectory.dir('datapacks'))
+}
+

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/dirt.png",
+    "description": {
+      "translate": "advancement.berryproof.root.desc"
+    },
+    "icon": {
+      "id": "berryproof:berryproof_bush_icon"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.berryproof.root.title"
+    }
+  }
+}

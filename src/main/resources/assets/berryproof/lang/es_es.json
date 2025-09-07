@@ -1,0 +1,25 @@
+{
+  "berryproof.midnightconfig.title": "Configuración de Berry Proof",
+  "berryproof.midnightconfig.enableSound": "Activar sonido cuando se bloquea el daño",
+  "berryproof.midnightconfig.enableSound.label.tooltip": "Alterna el sonido cuando se bloquea el daño.",
+  "berryproof.midnightconfig.enableSound.tooltip": "Si está activado, sonará un sonido cuando se bloquee el daño de bayas/cactus.",
+  "berryproof.midnightconfig.soundVolume": "Volumen del sonido (0.0 a 1.0)",
+  "berryproof.midnightconfig.soundVolume.label.tooltip": "Ajusta el volumen del sonido de protección.",
+  "berryproof.midnightconfig.soundVolume.tooltip": "Establece el volumen del sonido cuando se niega el daño.",
+  "berryproof.midnightconfig.logTagMatches": "Activar registro detallado para coincidencia de etiquetas",
+  "berryproof.midnightconfig.logTagMatches.label.tooltip": "Muestra información de depuración en el registro para coincidencias de etiquetas.",
+  "berryproof.midnightconfig.logTagMatches.tooltip": "Si está activado, se registrará información detallada de coincidencias para depuración.",
+  "berryproof.midnightconfig.enableProtectedEntities": "Activar protección para aldeanos, gólems y comerciantes errantes",
+  "berryproof.midnightconfig.enableProtectedEntities.label.tooltip": "Protege entidades etiquetadas de arbustos de bayas, cactus y otras fuentes de daño (si las hay).",
+  "berryproof.midnightconfig.enableProtectedEntities.tooltip": "Si está activado, aldeanos, gólems y comerciantes errantes estarán protegidos incluso sin perneras.",
+  "berryproof.midnightconfig.debugHeading": "\u00A7c\u00A7l\u00A7nDepuración",
+  "berryproof.midnightconfig.soundHeading": "\u00A7c\u00A7l\u00A7nSonido",
+  "berryproof.midnightconfig.entityProtectionHeading": "\u00A7c\u00A7l\u00A7nProtección de Entidades",
+
+  "advancement.berryproof.root.title": "Berry Proof",
+  "advancement.berryproof.root.desc": "\u00A1Demuestra a esas bayas qui\u00E9n manda!",
+  "advancement.berryproof.berryproofed.title": "\u00A1A prueba de bayas!",
+  "advancement.berryproof.berryproofed.desc": "Camina por un arbusto de bayas dulces sin recibir da\u00F1o.",
+  "advancement.berryproof.cactusproofed.title": "Una situaci\u00F3n espinosa",
+  "advancement.berryproof.cactusproofed.desc": "Choca con un cactus sin recibir da\u00F1o."
+}
